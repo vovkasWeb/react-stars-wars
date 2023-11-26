@@ -41,14 +41,14 @@ const PeoplePage = ({ setErrorApi }) => {
 
 	return (
 		<>
-			<h1>Navigation</h1>
+			<h1 className='header__text'>Navigation</h1>
 			{people && <PeopleList people={people} />}
 		</>
 	)
 }
 
 PeoplePage.propTypes = {
-	setErrorApi: PropTypes.func
+	setErrorApi: PropTypes.func,
 }
 
 export default withErrorApi(PeoplePage)
