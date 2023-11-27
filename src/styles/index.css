@@ -14,6 +14,7 @@
 	--width-max: 1200px;
 
 	--font-size-main: 16px;
+	--font-size-subheader: 18px;
 	--font-size-header: 26px;
 
 	--border-radius-small: 3px;
@@ -21,11 +22,13 @@
 	--theme-defalt-header: #cccc46;
 	--theme-defalt-bgimage: url('../static/bg.jpg');
 
-	--text-shadow-yellow: 
-	0 0 2px var(--color-white),
-	0 0 40px var(--color-blue);
+	--text-shadow-yellow: 0 0 2px var(--color-white),
+	 0 0 40px var(--color-yellow);
 
-	--trasiton : .4s;
+	--text-shadow-blue: 0 0 2px var(--color-white),
+	 0 0 40px var(--color-blue);
+
+	--trasiton: 0.4s;
 	--font-bold: 600;
 }
 
@@ -38,15 +41,15 @@ body {
 	background-image: var(--theme-defalt-bgimage);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top left ;
+	background-position: top left;
 	background-attachment: fixed;
 }
-img{
+img {
 	display: block;
 }
-.header__text{
+.header__text {
 	line-height: 1.7;
-	font-size:var(--font-size-header) ;
+	font-size: var(--font-size-header);
 	text-shadow: 0 0 2px var(--color-dark);
 	color: var(--theme-defalt-header);
 	transition: color var(--trasiton);
