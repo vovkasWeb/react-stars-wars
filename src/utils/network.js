@@ -1,5 +1,21 @@
+import { HTTP,HTTPS } from "../constants/api"
 
+/**
+ *  Изменяет URL c HTTP на HTTPS
+ * @param {String} url - usl для изменения
+ * @returns {String} - url c HTTPS
+ */
 
+export const changeHTTP = url =>{
+	const results = url ? url.replace(HTTP,HTTPS) : url;
+
+	return results;
+}
+/**
+ *  Отпаравляет запрос Fetch
+ * @param {String} url - url для запроса
+ * @returns  {Promise} Promise c результатом запроса
+ */
 export const getApiResource = async url => {
 	try {
 		const res = await fetch(url)
