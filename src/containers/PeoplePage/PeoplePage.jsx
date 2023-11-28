@@ -5,14 +5,10 @@ import PeopleList from '../../companents/PeoplePage/PeopleList'
 
 import { getApiResource, changeHTTP } from '../../utils/network'
 import { API_PEOPLE } from '../../constants/api'
-import {
-	getPeopleId,
-	getPeopleImage,
-	getPeoplePageId,
-} from '../../services/getPeopleData'
+import {getPeopleId,getPeopleImage,getPeoplePageId} from '../../services/getPeopleData'
 import { withErrorApi } from '../../hoc-helpers/withErrorApi'
 import { useQueryParams } from '../../hooks/useQueryParams'
-import PeopleNavigation from '../../companents/PeoplePage/PeopleList/PeopleNavigation/PeopleNavigation'
+import PeopleNavigation from '../../companents/PeoplePage/PeopleNavigation/PeopleNavigation'
 
 import styles from './PeoplePage.module.css'
 
