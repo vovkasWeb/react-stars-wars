@@ -8,6 +8,7 @@ import { withErrorApi } from '../../hoc-helpers/withErrorApi'
 import { getPeopleImage } from '../../services/getPeopleData'
 import PersonInfo from '../../companents/PersonPage/PersonInfo'
 import PersonPhoto from '../../companents/PersonPage/PersonPhoto'
+import PersonLinkBack from '../../companents/PersonPage/PersonLinkBack'
 
 const PersonPage = ({ setErrorApi }) => {
 	const [personInfo, setPersonInfo] = useState(null)
@@ -38,6 +39,7 @@ const PersonPage = ({ setErrorApi }) => {
 	}, [])
 	return (
 		<>
+		<PersonLinkBack/>
 			<div className={styles.wrapper}>
 				<span className={styles.person__name}>{personName}</span>
 				<div className={styles.container}>
