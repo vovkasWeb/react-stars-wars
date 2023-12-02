@@ -24,7 +24,7 @@ export const White = Template.bind({})
 White.args = {
 	...props,
 	theme: 'white',
-    isShadow: true,
+    isShadow: true
 }
 
 export const Blue = Template.bind({})
