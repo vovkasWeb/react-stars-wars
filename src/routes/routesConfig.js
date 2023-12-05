@@ -1,3 +1,4 @@
+import ErrorMessage from '../companents/ErrorMessage'
 import FavoritesPage from '../containers/FavoritesPage'
 import HomePage from '../containers/HomePage'
 import NotFoundPage from '../containers/NotFoundPage/NotFoundPage'
@@ -27,6 +28,10 @@ const routesConfig = [
 	{
 		path: '/search',
 		element: <SearchPage />,
+	},
+	{
+		path: '/fail',
+		element: <ErrorMessage />,
 	},
 	{
 		path: '/not-found',

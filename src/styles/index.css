@@ -30,9 +30,22 @@
 
 	--theme-defalt-header: var(--theme-neitral-header);
 
-
-	--theme-light-bgimage:  linear-gradient(to right bottom, #051937, #162454, #312d70, #533389, #7a359f);
-	--theme-dark-bgimage:  linear-gradient(to right bottom, #000000, #160b11, #20141e, #281b2e, #2b2440);
+	--theme-light-bgimage: linear-gradient(
+		to right bottom,
+		#051937,
+		#162454,
+		#312d70,
+		#533389,
+		#7a359f
+	);
+	--theme-dark-bgimage: linear-gradient(
+		to right bottom,
+		#000000,
+		#160b11,
+		#20141e,
+		#281b2e,
+		#2b2440
+	);
 	--theme-neitral-bgimage: url('../static/bg.jpg');
 
 	--theme-defalt-bgimage: var(--theme-neitral-bgimage);
@@ -73,4 +86,38 @@ img {
 	text-shadow: 0 0 2px var(--color-dark);
 	color: var(--theme-defalt-header);
 	transition: color var(--trasiton);
+}
+
+/***************************************************
+SCROLL
+/***************************************************/
+* {
+	scrollbar-color: rgb(37, 56, 97) rgba(0, 0, 0, 0.7);
+	scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(37, 56, 97);
+	border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-corner {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+html {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 }
