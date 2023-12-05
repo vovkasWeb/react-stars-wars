@@ -37,7 +37,7 @@ const Header = () => {
 	}, [isTheme])
 	return (
 		<div className={styles.container}>
-			<img className={styles.logo} src={icon} alt='Star wars'/>
+			<img className={styles.logo} src={icon} alt='Star wars' />
 			<ul className={styles.list__container}>
 				<li>
 					<NavLink to='/'>Home</NavLink>
@@ -47,6 +47,9 @@ const Header = () => {
 				</li>
 				<li>
 					<NavLink to='/not-found'>Not Found</NavLink>
+				</li>
+				<li>
+					<NavLink to='/search'>Search</NavLink>
 				</li>
 			</ul>
 			<Favorite />
