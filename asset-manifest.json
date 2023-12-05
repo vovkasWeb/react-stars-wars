@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/react-stars-wars/static/css/main.ffa92466.css",
-    "main.js": "/react-stars-wars/static/js/main.cebeb2a0.js",
-    "static/css/538.5e61a5b9.chunk.css": "/react-stars-wars/static/css/538.5e61a5b9.chunk.css",
-    "static/js/538.d403a972.chunk.js": "/react-stars-wars/static/js/538.d403a972.chunk.js",
+    "main.css": "/react-stars-wars/static/css/main.0ff7f619.css",
+    "main.js": "/react-stars-wars/static/js/main.dee94e40.js",
+    "static/css/538.9d1cb78a.chunk.css": "/react-stars-wars/static/css/538.9d1cb78a.chunk.css",
+    "static/js/538.3272aa65.chunk.js": "/react-stars-wars/static/js/538.3272aa65.chunk.js",
     "static/media/bg.jpg": "/react-stars-wars/static/media/bg.29b25be31315dad3ce4e.jpg",
     "static/media/falcon.jpg": "/react-stars-wars/static/media/falcon.c1d0a8d1869b3fbdb9ab.jpg",
     "static/media/han-solo.mp4": "/react-stars-wars/static/media/han-solo.db435084c403f6b37d4d.mp4",
@@ -22,13 +22,13 @@
     "static/media/loader-black.svg": "/react-stars-wars/static/media/loader-black.e08f8176ebde7efea3dde63c261a73c7.svg",
     "static/media/loader-blue.svg": "/react-stars-wars/static/media/loader-blue.a228a21678d54c77113e99d4d1d26b3a.svg",
     "static/media/loader-white.svg": "/react-stars-wars/static/media/loader-white.3b2c7a4d9cb5359314b8fdb03eba5b64.svg",
-    "main.ffa92466.css.map": "/react-stars-wars/static/css/main.ffa92466.css.map",
-    "main.cebeb2a0.js.map": "/react-stars-wars/static/js/main.cebeb2a0.js.map",
-    "538.5e61a5b9.chunk.css.map": "/react-stars-wars/static/css/538.5e61a5b9.chunk.css.map",
-    "538.d403a972.chunk.js.map": "/react-stars-wars/static/js/538.d403a972.chunk.js.map"
+    "main.0ff7f619.css.map": "/react-stars-wars/static/css/main.0ff7f619.css.map",
+    "main.dee94e40.js.map": "/react-stars-wars/static/js/main.dee94e40.js.map",
+    "538.9d1cb78a.chunk.css.map": "/react-stars-wars/static/css/538.9d1cb78a.chunk.css.map",
+    "538.3272aa65.chunk.js.map": "/react-stars-wars/static/js/538.3272aa65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffa92466.css",
-    "static/js/main.cebeb2a0.js"
+    "static/css/main.0ff7f619.css",
+    "static/js/main.dee94e40.js"
   ]
 }
